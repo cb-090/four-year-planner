@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F737D6422BAF57B8005AB362 /* FourYearPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737D6412BAF57B8005AB362 /* FourYearPlannerApp.swift */; };
+		F737D6442BAF57B8005AB362 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737D6432BAF57B8005AB362 /* ContentView.swift */; };
+		F737D6462BAF57BA005AB362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F737D6452BAF57BA005AB362 /* Assets.xcassets */; };
+		F737D6492BAF57BA005AB362 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F737D6482BAF57BA005AB362 /* Preview Assets.xcassets */; };
+		F737D6532BAF57BA005AB362 /* FourYearPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737D6522BAF57BA005AB362 /* FourYearPlannerTests.swift */; };
+		F737D65D2BAF57BA005AB362 /* FourYearPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737D65C2BAF57BA005AB362 /* FourYearPlannerUITests.swift */; };
+		F737D65F2BAF57BA005AB362 /* FourYearPlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737D65E2BAF57BA005AB362 /* FourYearPlannerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F737D64F2BAF57BA005AB362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F737D6362BAF57B8005AB362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F737D63D2BAF57B8005AB362;
+			remoteInfo = FourYearPlanner;
+		};
+		F737D6592BAF57BA005AB362 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F737D6362BAF57B8005AB362 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F737D63D2BAF57B8005AB362;
+			remoteInfo = FourYearPlanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F737D63E2BAF57B8005AB362 /* FourYearPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourYearPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F737D6412BAF57B8005AB362 /* FourYearPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourYearPlannerApp.swift; sourceTree = "<group>"; };
+		F737D6432BAF57B8005AB362 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F737D6452BAF57BA005AB362 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F737D6482BAF57BA005AB362 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F737D64E2BAF57BA005AB362 /* FourYearPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourYearPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F737D6522BAF57BA005AB362 /* FourYearPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourYearPlannerTests.swift; sourceTree = "<group>"; };
+		F737D6582BAF57BA005AB362 /* FourYearPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourYearPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F737D65C2BAF57BA005AB362 /* FourYearPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourYearPlannerUITests.swift; sourceTree = "<group>"; };
+		F737D65E2BAF57BA005AB362 /* FourYearPlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourYearPlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F737D63B2BAF57B8005AB362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F737D64B2BAF57BA005AB362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F737D6552BAF57BA005AB362 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F737D6352BAF57B8005AB362 = {
+			isa = PBXGroup;
+			children = (
+				F737D6402BAF57B8005AB362 /* FourYearPlanner */,
+				F737D6512BAF57BA005AB362 /* FourYearPlannerTests */,
+				F737D65B2BAF57BA005AB362 /* FourYearPlannerUITests */,
+				F737D63F2BAF57B8005AB362 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F737D63F2BAF57B8005AB362 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F737D63E2BAF57B8005AB362 /* FourYearPlanner.app */,
+				F737D64E2BAF57BA005AB362 /* FourYearPlannerTests.xctest */,
+				F737D6582BAF57BA005AB362 /* FourYearPlannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F737D6402BAF57B8005AB362 /* FourYearPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				F737D6412BAF57B8005AB362 /* FourYearPlannerApp.swift */,
+				F737D6432BAF57B8005AB362 /* ContentView.swift */,
+				F737D6452BAF57BA005AB362 /* Assets.xcassets */,
+				F737D6472BAF57BA005AB362 /* Preview Content */,
+			);
+			path = FourYearPlanner;
+			sourceTree = "<group>";
+		};
+		F737D6472BAF57BA005AB362 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F737D6482BAF57BA005AB362 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F737D6512BAF57BA005AB362 /* FourYearPlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F737D6522BAF57BA005AB362 /* FourYearPlannerTests.swift */,
+			);
+			path = FourYearPlannerTests;
+			sourceTree = "<group>";
+		};
+		F737D65B2BAF57BA005AB362 /* FourYearPlannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F737D65C2BAF57BA005AB362 /* FourYearPlannerUITests.swift */,
+				F737D65E2BAF57BA005AB362 /* FourYearPlannerUITestsLaunchTests.swift */,
+			);
+			path = FourYearPlannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F737D63D2BAF57B8005AB362 /* FourYearPlanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F737D6622BAF57BA005AB362 /* Build configuration list for PBXNativeTarget "FourYearPlanner" */;
+			buildPhases = (
+				F737D63A2BAF57B8005AB362 /* Sources */,
+				F737D63B2BAF57B8005AB362 /* Frameworks */,
+				F737D63C2BAF57B8005AB362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FourYearPlanner;
+			productName = FourYearPlanner;
+			productReference = F737D63E2BAF57B8005AB362 /* FourYearPlanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F737D64D2BAF57BA005AB362 /* FourYearPlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F737D6652BAF57BA005AB362 /* Build configuration list for PBXNativeTarget "FourYearPlannerTests" */;
+			buildPhases = (
+				F737D64A2BAF57BA005AB362 /* Sources */,
+				F737D64B2BAF57BA005AB362 /* Frameworks */,
+				F737D64C2BAF57BA005AB362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F737D6502BAF57BA005AB362 /* PBXTargetDependency */,
+			);
+			name = FourYearPlannerTests;
+			productName = FourYearPlannerTests;
+			productReference = F737D64E2BAF57BA005AB362 /* FourYearPlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F737D6572BAF57BA005AB362 /* FourYearPlannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F737D6682BAF57BA005AB362 /* Build configuration list for PBXNativeTarget "FourYearPlannerUITests" */;
+			buildPhases = (
+				F737D6542BAF57BA005AB362 /* Sources */,
+				F737D6552BAF57BA005AB362 /* Frameworks */,
+				F737D6562BAF57BA005AB362 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F737D65A2BAF57BA005AB362 /* PBXTargetDependency */,
+			);
+			name = FourYearPlannerUITests;
+			productName = FourYearPlannerUITests;
+			productReference = F737D6582BAF57BA005AB362 /* FourYearPlannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F737D6362BAF57B8005AB362 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F737D63D2BAF57B8005AB362 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F737D64D2BAF57BA005AB362 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F737D63D2BAF57B8005AB362;
+					};
+					F737D6572BAF57BA005AB362 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F737D63D2BAF57B8005AB362;
+					};
+				};
+			};
+			buildConfigurationList = F737D6392BAF57B8005AB362 /* Build configuration list for PBXProject "FourYearPlanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F737D6352BAF57B8005AB362;
+			productRefGroup = F737D63F2BAF57B8005AB362 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F737D63D2BAF57B8005AB362 /* FourYearPlanner */,
+				F737D64D2BAF57BA005AB362 /* FourYearPlannerTests */,
+				F737D6572BAF57BA005AB362 /* FourYearPlannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F737D63C2BAF57B8005AB362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F737D6492BAF57BA005AB362 /* Preview Assets.xcassets in Resources */,
+				F737D6462BAF57BA005AB362 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F737D64C2BAF57BA005AB362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F737D6562BAF57BA005AB362 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F737D63A2BAF57B8005AB362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F737D6442BAF57B8005AB362 /* ContentView.swift in Sources */,
+				F737D6422BAF57B8005AB362 /* FourYearPlannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F737D64A2BAF57BA005AB362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F737D6532BAF57BA005AB362 /* FourYearPlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F737D6542BAF57BA005AB362 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F737D65F2BAF57BA005AB362 /* FourYearPlannerUITestsLaunchTests.swift in Sources */,
+				F737D65D2BAF57BA005AB362 /* FourYearPlannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F737D6502BAF57BA005AB362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F737D63D2BAF57B8005AB362 /* FourYearPlanner */;
+			targetProxy = F737D64F2BAF57BA005AB362 /* PBXContainerItemProxy */;
+		};
+		F737D65A2BAF57BA005AB362 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F737D63D2BAF57B8005AB362 /* FourYearPlanner */;
+			targetProxy = F737D6592BAF57BA005AB362 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F737D6602BAF57BA005AB362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F737D6612BAF57BA005AB362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F737D6632BAF57BA005AB362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FourYearPlanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 3CWQTF6K7P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.FourYearPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F737D6642BAF57BA005AB362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FourYearPlanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 3CWQTF6K7P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.FourYearPlanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F737D6662BAF57BA005AB362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CWQTF6K7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.FourYearPlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FourYearPlanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FourYearPlanner";
+			};
+			name = Debug;
+		};
+		F737D6672BAF57BA005AB362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CWQTF6K7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.FourYearPlannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FourYearPlanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FourYearPlanner";
+			};
+			name = Release;
+		};
+		F737D6692BAF57BA005AB362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CWQTF6K7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.FourYearPlannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FourYearPlanner;
+			};
+			name = Debug;
+		};
+		F737D66A2BAF57BA005AB362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CWQTF6K7P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.lmu.FourYearPlannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FourYearPlanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F737D6392BAF57B8005AB362 /* Build configuration list for PBXProject "FourYearPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F737D6602BAF57BA005AB362 /* Debug */,
+				F737D6612BAF57BA005AB362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F737D6622BAF57BA005AB362 /* Build configuration list for PBXNativeTarget "FourYearPlanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F737D6632BAF57BA005AB362 /* Debug */,
+				F737D6642BAF57BA005AB362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F737D6652BAF57BA005AB362 /* Build configuration list for PBXNativeTarget "FourYearPlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F737D6662BAF57BA005AB362 /* Debug */,
+				F737D6672BAF57BA005AB362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F737D6682BAF57BA005AB362 /* Build configuration list for PBXNativeTarget "FourYearPlannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F737D6692BAF57BA005AB362 /* Debug */,
+				F737D66A2BAF57BA005AB362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F737D6362BAF57B8005AB362 /* Project object */;
+}
