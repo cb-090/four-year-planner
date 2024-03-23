@@ -14,6 +14,9 @@
 		F737D6532BAF57BA005AB362 /* FourYearPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737D6522BAF57BA005AB362 /* FourYearPlannerTests.swift */; };
 		F737D65D2BAF57BA005AB362 /* FourYearPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737D65C2BAF57BA005AB362 /* FourYearPlannerUITests.swift */; };
 		F737D65F2BAF57BA005AB362 /* FourYearPlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737D65E2BAF57BA005AB362 /* FourYearPlannerUITestsLaunchTests.swift */; };
+		F737D66C2BAF5D24005AB362 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737D66B2BAF5D24005AB362 /* SignUpView.swift */; };
+		F737D66E2BAF604E005AB362 /* CoursesTakenSoFarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737D66D2BAF604E005AB362 /* CoursesTakenSoFarView.swift */; };
+		F737D6702BAF606D005AB362 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = F737D66F2BAF606D005AB362 /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F737D6582BAF57BA005AB362 /* FourYearPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FourYearPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F737D65C2BAF57BA005AB362 /* FourYearPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourYearPlannerUITests.swift; sourceTree = "<group>"; };
 		F737D65E2BAF57BA005AB362 /* FourYearPlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourYearPlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F737D66B2BAF5D24005AB362 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		F737D66D2BAF604E005AB362 /* CoursesTakenSoFarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTakenSoFarView.swift; sourceTree = "<group>"; };
+		F737D66F2BAF606D005AB362 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				F737D6412BAF57B8005AB362 /* FourYearPlannerApp.swift */,
 				F737D6432BAF57B8005AB362 /* ContentView.swift */,
+				F737D66B2BAF5D24005AB362 /* SignUpView.swift */,
+				F737D66D2BAF604E005AB362 /* CoursesTakenSoFarView.swift */,
+				F737D66F2BAF606D005AB362 /* Course.swift */,
 				F737D6452BAF57BA005AB362 /* Assets.xcassets */,
 				F737D6472BAF57BA005AB362 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F737D6702BAF606D005AB362 /* Course.swift in Sources */,
 				F737D6442BAF57B8005AB362 /* ContentView.swift in Sources */,
+				F737D66C2BAF5D24005AB362 /* SignUpView.swift in Sources */,
 				F737D6422BAF57B8005AB362 /* FourYearPlannerApp.swift in Sources */,
+				F737D66E2BAF604E005AB362 /* CoursesTakenSoFarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
