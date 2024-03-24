@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>FourYearPlanner</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Dancing+Script" />
+</head>
+
+<body>
+  <header>
+    <div class="triangle"></div>
+    <h1>Four Year Planner</h1>
+  </header>
+  <div class="schedule-grid">
+    <div class="navbar">
+      <button class="freshman">Freshman</button>
+      <button class="sophomore">Sophomore</button>
+      <button class="junior">Junior</button>
+      <button class="senior">Senior</button>
+    </div>
+    <div class="label">
+      <h2>Freshman</h2>
+      <h3 id="units"></h3>
+    </div>
+    <div class="fall">
+      <h3>Fall</h3>
+    </div>
+    <div class="spring">
+      <h3>Spring</h3>
+    </div>
+    <div class = "menu" id="fallbox">
+      <div class="schedule">
+        <figure id="fall_slot1">
+          <p id="fall_name1"></p>
+        </figure>
+        <figure id="fall_slot2">
+          <p id="fall_name2"></p>
+        </figure>
+        <figure id="fall_slot3">
+          <p id="fall_name3"></p>
+        </figure>
+        <figure id="fall_slot4">
+          <p id="fall_name4"></p>
+        </figure>
+        <figure id="fall_slot5">
+          <p id="fall_name5"></p>
+        </figure>
+        <figure id="fall_slot6">
+          <p id="fall_name6"></p>
+        </figure>
+      </div>
+    </div>
+    <div class = "menu" id="springbox">
+      <div class="schedule">
+        <figure id="spring_slot1">
+          <p id="spring_name1"></p>
+        </figure>
+        <figure id="spring_slot2">
+          <p id="spring_name2"></p>
+        </figure>
+        <figure id="spring_slot3">
+          <p id="spring_name3"></p>
+        </figure>
+        <figure id="spring_slot4">
+          <p id="spring_name4"></p>
+        </figure>
+        <figure id="spring_slot5">
+          <p id="spring_name5"></p>
+        </figure>
+        <figure id="spring_slot6">
+          <p id="fall_name6"></p>
+        </figure>
+      </div>
+    </div>
+    <div id="classbank" class = "menu">
+        <button class = "menu" class = "fallClass" id="CMSI 1010">CMSI 1010</button>
+        <button class = "fallClass" id="CMSI 1900">CMSI 1900</button>
+        <button class = "springClass" id="CMSI 2120">CMSI 2120</button>
+        <button class = "fallClass" id="Orientation">Freshman Orientation</button>
+        <button class = "fallClass" id="Philosophical Inquiry">Philosophical Inquiry</button>
+        <button class = "springClass" id="Theological Inquiry">Theological Inquiry</button>
+        <button class = "springClass" id="Studies in American Diversity">American Diversity</button>
+        <button class = "springClass" id="Rhetorical Arts">Rhetorical Arts</button>
+        <button class = "fallClass" id="First Year Seminar">Freshman Seminar</button>
+        <button class = "fallClass" id="Calculus 1">Calculus 1</button>
+        <button class = "springClass" id="Calculus 2">Calculus 2</button>
+        <button class = "springClass" id="Linear Algebra">Linear Algebra</button>
+    </div>
+  </div>
+  <footer>
+    <p>A planner meant to make course planning easier for potential freshman <br> ©️ Hackathon 2024</p>
+  </footer>
+  <script src="fouryearplanner.js"></script>
+</body>
+
+</html>
